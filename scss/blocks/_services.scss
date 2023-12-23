@@ -1,0 +1,104 @@
+
+.services__section-wrapper {
+    height: 728px;
+}
+.services__section-content {
+    position: relative;
+    z-index: 1;
+    height: 577px;
+    border-radius: 10px;
+    background: #2C343E;
+}
+.services__section-texts {
+    padding-top: 100px;
+    text-align: center;
+
+}
+.services__title {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Fraunces 9pt;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; /* 120% */
+}
+.services__text {
+    text-align: center;
+    padding-left: 0px 0px;
+    margin: 32px 310px;
+    color: #FEFCF7;
+    width: 540px;
+    height: 80px;
+    
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    opacity: 0.8;
+}
+.services__list {
+    margin-left: 25px;
+    margin-top: -400px;
+    margin-bottom: 200px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+}
+.services__item {
+    align-items: center;
+    width: 350px;
+    height: 382px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #0E8784;
+    margin-right: 30px;
+    &:hover{
+        border-radius: 8px;
+        cursor: pointer;
+        background: #66D2CF;
+    }
+    &:active{
+        border-radius: 8px;
+        cursor: pointer;
+        background: rgb(74, 64, 64);
+         
+    }
+}
+.services__item-image {
+    padding: 0px 0px;
+    margin: 72px 138px;
+
+}
+.services__item-title {
+ 
+    margin-bottom: 24px;
+    margin-left: 47px;
+    margin-right: 48px;
+    width: 255px;
+    color: #FEFCF7;
+    
+    text-align: center;
+    font-family: Fraunces,serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 133.333% */
+}
+.services__item-text {
+    width: 255px;
+    margin-left: 47px;
+    color: #FEFCF7;
+    
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+ .services__item-center{
+     margin-top: 22px;
+ }
